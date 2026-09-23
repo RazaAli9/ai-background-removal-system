@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Runtime outputs
+logs/
+output/
+batch_test_outputs/
+bg_remover_inputs/
+*.log
+
+# Model/cache artifacts
+*.pt
+*.pth
+*.onnx
+*.safetensors
+.cache/
+.huggingface/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
