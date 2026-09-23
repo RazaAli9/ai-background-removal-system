@@ -291,21 +291,21 @@ def compute_region_features(
                     float(prop.orientation),
 
                 "major_axis_length":
-                    float(prop.major_axis_length),
+                    float(prop.axis_major_length),
 
                 "minor_axis_length":
-                    float(prop.minor_axis_length),
+                    float(prop.axis_minor_length),
 
                 "equivalent_diameter":
                     float(
-                        prop.equivalent_diameter
+                        prop.equivalent_diameter_area
                     ),
 
                 "convex_area":
-                    int(prop.convex_area),
+                    int(prop.area_convex),
 
                 "filled_area":
-                    int(prop.filled_area),
+                    int(prop.area_filled),
 
                 "euler_number":
                     int(prop.euler_number),
