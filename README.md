@@ -1,6 +1,23 @@
 # AI Background Removal System
 
-A BiRefNet-based background-removal pipeline with custom mask refinement, structural foreground analysis, adaptive alpha refinement, and hair/fine-detail processing. The same core inference pipeline can be served through FastAPI or deployed as a Gradio application on Hugging Face Spaces / ZeroGPU.
+BiRefNet-based background removal with custom structural foreground analysis, adaptive alpha refinement, and fine-detail processing.
+
+## Live Demo
+
+Try the deployed ZeroGPU version on Hugging Face Spaces:
+
+[Open Live Demo](https://huggingface.co/spaces/RazaAli89/bg_remover)
+
+## Key Features
+
+- BiRefNet-based foreground segmentation
+- Custom mask refinement
+- Structural foreground analysis
+- Adaptive alpha refinement
+- Hair and fine-detail processing
+- FastAPI inference API
+- Gradio interface
+- Hugging Face Spaces deployment with ZeroGPU
 
 > **Portfolio note:** This repository is intended to demonstrate the end-to-end engineering pipeline: model loading, preprocessing, inference, post-processing, benchmarking, API serving, and GPU-backed demo deployment.
 
